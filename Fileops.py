@@ -23,7 +23,7 @@ for name in filename:
                 line=i.split(',')
                 
                     
-                if line[0]=='100':
+                if line[0]=='100' or line[0]=='900':
                     write.writerow(line)
                 
 
